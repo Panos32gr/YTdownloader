@@ -1,0 +1,79 @@
+body{
+margin:0;
+padding:0;
+background-image: linear-gradient(90deg, red, orange);
+font-family:"montserrat", sans-serif;
+}
+
+
+h1{
+text-align:center;
+}
+
+/* css home page customization */
+.home{
+text-align: center;
+transform: translateY(50%)
+
+}
+
+form{
+text-align: center;
+transform: translateY(900%)
+}
+
+input{
+background-color: white;
+height: 30px;
+width: 900px;
+}
+
+.home h2{
+transform: translateY(400%)
+
+}
+
+
+
+
+/* css error page customization */
+.image{
+text-align: center;
+transform:translateY(20%)
+}
+
+.container{
+font-size: 40px;
+align: center;
+font-weight: 100;
+text-align: center;
+transform: translateY(20%)
+}
+
+.container a{
+text-decoration: none;
+background: black;
+color: white;
+display:inline-block;
+}
+
+/* css download page customization */
+
+.complete {
+font-size: 40px;
+align: center;
+font-weight: 100;
+text-align: center;
+transform: translateY(20%)
+}
+
+a {
+text-decoration: none;
+background-color: black;
+background-size: auto;
+color: white;
+display:inline-block;
+transform: translateY(100%)
+border: 1px solid black;
+border-radius: 25px;
+}

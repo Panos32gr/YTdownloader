@@ -1,0 +1,18 @@
+{% extends "parent.html" %}
+{% block content%}
+
+
+<div class="home">
+    <h3>
+    Powered by a fat dude from a small town in Greece!!!
+</h3>
+    <img src="/static/thundur.png" alt="power">
+    <h2>This program is made for educational purpose<br>
+        Feel free to copy, share, showcase as you see fit.
+    </h2>
+</div>
+<form method="POST">
+    <input class ="form" type="text" width="70" height="40" placeholder="Paste Youtube URL here:" name="url" >
+    <button type="submit">Download</button>
+</form>
+{% endblock %}
