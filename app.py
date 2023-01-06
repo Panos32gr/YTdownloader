@@ -13,7 +13,7 @@ def home():
             url = YouTube(session['link'])
             url.check_availability()
             video = url.streams.get_highest_resolution()
-            video.download(output_path="C:/Users/Panos/Downloads")
+            video.download()
         except:
             return render_template("error.html")
         return render_template("download.html", url=url)
